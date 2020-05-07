@@ -21,13 +21,21 @@
 
 from scapy.all import *
 
-attack_free = rdpcap("AttackFree.pcap")
 
-a = attack_free
-sessions = a.sessions()
-for session in sessions:
-    for packet in sessions[session]:
-        print(packet)
-        break
+def getNGrams(wordlist, n):
+    ngrams = []
+    for i in range(len(wordlist)-(n-1)):
+        ngrams.append(wordlist[i:i+n])
+    return ngrams
+
+payload_attack_free_all = []
+
+payload_attack_free = open("AttackFree.txt", "r")
+
+n_grams_normal = []
+
+for i in payload_attack_free:
+    n_grams_normal += getNGrams(i[:-1], 3)
+
 
 
