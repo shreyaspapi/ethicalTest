@@ -1,13 +1,24 @@
+'''
+------- Please read this before starting ---------
+
+Before running this file you will need to run analyse.py file which is found on the internet.
+
+Run this command before running the Answer.py file.
+   python3 analyse.py --inputpcap /path/to/pcap --striptxt /path/to/folder
+
+After you run this file you will have to input n_garms and X value.
+
+Voila You will get the Maliciousness and the text based on the value of X.
+'''
 
 
 from scapy.all import *
 import os
 
-
 # User inputs
 
-n_grams = 3
-X = 20
+n_grams = int(input("Please input x_grams : "))
+X = int(input("Please input the X value : "))
 
 
 def getNGrams(wordlist, n):
