@@ -1,0 +1,23 @@
+/*body { font-size: 62.5%; margin: 50px; }
+fieldset { padding: .6em 0;border:0;border-top: 1px dotted #ddd; }
+legend { font-size: 1.5em; font-weight: bold; color: #555; padding: .5em 1em .5em 0; background: #fff;  }
+label { font-size: 1.4em; display: block; margin: .5em 10px .5em 0;  }
+input#upload { background: #aaa url(../images/bg-btn.png) bottom repeat-x; padding: .4em 1.2em;border: 1px solid #aaa; color: #222; font-size: 1.2em; font-weight: bold; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; cursor: pointer; margin: 2em 0; }
+input#upload:hover { background: #eee; color: #111; border-color:#777; }
+*/
+
+/*custom upload elements*/
+.customfile-input { position: absolute; height: 100px; cursor: pointer; background: transparent; border: 0; opacity: 0; -moz-opacity: 0; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0); z-index: 999;  }
+
+.customfile { width: 256px; height:26px; cursor: pointer; overflow: hidden; padding:0; position: relative; background:url(../images/file_bg.png) 0 0 no-repeat; }
+.customfile-disabled { opacity: .5; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0); cursor: default;  }
+.customfile-feedback, .customfile-feedback-populated { margin:5px 0 0 10px; display: block; color: #808080; font-family: 'opensan-webfont'; font-size: 11px; font-style:italic; }
+.customfile-button { background:url(../images/in_sprite1.png) -566px -1137px no-repeat; float: right; width: 69px; height:24px; text-indent:-9999px; cursor:pointer; }
+.customfile-hover .customfile-button, .customfile-focus .customfile-button  { background-position: -566px -1163px;  }
+.customfile-focus .customfile-button { background-position: -566px -1189px;  }
+
+/*file type icons*//*
+.customfile-ext-jpg, .customfile-ext-gif, .customfile-ext-png, .customfile-ext-jpeg, .customfile-ext-bmp { background-image: url(../images/icon-image.gif);}
+.customfile-ext-mp3, .customfile-ext-mp4, .customfile-ext-mov, .customfile-ext-swf, .customfile-ext-wav, .customfile-ext-m4v { background-image: url(../images/icon-media.gif);}
+.customfile-ext-zip, .customfile-ext-tar, .customfile-ext-sit { background-image: url(../images/icon-zip.gif);}
+*/

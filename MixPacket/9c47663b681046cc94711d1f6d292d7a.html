@@ -1,0 +1,45 @@
+<article class="show-thumb" ng-class="{'new' : obj.latestLabelActive, 'show-thumb' : !isSearch, 'show-thumbSearch' : isSearch}" ng-if=" obj" ng-init="createOverlayProperty(obj)">
+
+    <a href="#" ng-click="showOverlay(obj)" ng-mouseenter="mobile ? angular.noop : showOverlay(obj)">
+        <img placeholder-img="{'realUrl' :  '{{obj.imgUrl}}', 'placeholderUrl' : '{{obj.placeholderUrl}}'}"
+             alt="{{obj.contentTitle}}"
+             title="{{obj.contentTitle}}" />
+    </a>
+    <div ng-if="obj.latestLabelActive" class="newTag">new</div>
+    <div class="thumb-overlay" ng-class="obj.latestLabelActive ? 'newoverlay' : ''" ng-show="obj.overlay">
+        <a href="" ng-if="obj.contentType!=='EPISODE' && obj.contentType!=='SERIES' && obj.contentType !='FICTITIOUS'" ng-class="mobile ? 'action-small-close' : 'action-small-play'"
+           ng-click="mobile ? hideOverlay(obj) : showVideo(obj.contentId, obj.contentType,obj.parentCategoryId, null, null, obj.detail)" debug="{{obj.contentId}}"></a>
+        <a href="" ng-if="obj.contentType=='EPISODE' && retrieveDetailPage() != 'SERIE'" ng-class="mobile ? 'action-small-close' : 'action-small-play'"
+           ng-click="mobile ? hideOverlay(obj) : goToTvshowEpisode(obj)" debug="{{obj.contentId}}"></a>
+        <a href="" ng-if="obj.contentType=='EPISODE' && retrieveDetailPage() == 'SERIE'" ng-class="mobile ? 'action-small-close' : 'action-small-play'"
+           ng-click="mobile ? hideOverlay(obj) : showVideo(obj.contentId, obj.contentType,obj.parentCategoryId, null, null, null)" debug="{{obj.contentId}}"></a>
+        <a href="" ng-if="obj.contentType == 'SERIES' && !noPlayButton || (obj.contentType == 'FICTITIOUS' && !noPlayButton)" ng-class="mobile ? 'action-small-close' : 'action-small-play'"
+           ng-click="mobile ? hideOverlay(obj) : showVideo(obj.contentId, obj.contentType,obj.parentCategoryId ? obj.parentCategoryId : obj.originalCategoryId, null, null, obj.detail)" debug="{{obj.contentId}}"></a>
+        <ng-include src="'./partials/toolTip/toolTip.html'"></ng-include>
+
+    </div>
+    <div ng-if="obj.contentType=='EPISODE' || obj.contentType == 'CLIPS'" class="new-tv-meta">
+        <h5 ng-if="obj.contentTitle && !isTvShowPartial">{{obj.contentTitle}}</h5>
+        <h5 ng-if="forceTitle">{{obj.contentTitle}}</h5>
+        <p>
+            <span ng-if="obj.chapter">{{obj.chapter}}</span><span ng-if="obj.chapter && obj.episodeNumber"> | {{'Episode ' + obj.episodeNumber}}</span>
+            <!----><span ng-if="!obj.chapter && obj.episodeNumber">{{'Episode ' + obj.episodeNumber}}</span>
+        </p>
+        <p ng-if="obj.broadcastDateString">| {{obj.broadcastDateString}}</p>
+    </div>    <!--h5 ng-if="obj.contentType=='SERIES'">{{createLabelWithPipes([obj.genre, obj.language, obj.channel])}}</!--h5-->
+    <h5 ng-if="obj.contentType=='SERIES' && !noMetadata">{{obj.contentTitle}}</h5>
+    <h5 ng-if="obj.contentType =='FICTITIOUS'">{{obj.contentTitle}}</h5>
+    <div ng-if="obj.contentType == 'SPORT' || obj.contentType == 'SPORT_LIVE'">
+        <a ng-if="mobile" class="view-details" ng-href="{{obj.detail}}">
+            <h5>{{obj.title ? obj.title : obj.contentTitle}}</h5>
+            <p ng-if="obj.broadcastDate > 0 && obj.broadcastDateString">{{obj.broadcastDateString}}</p>
+        </a>
+        <div ng-if="!mobile" class="view-details" ng-href="{{obj.detail}}">
+            <h5>{{obj.title ? obj.title : obj.contentTitle}}</h5>
+            <p ng-if="obj.broadcastDate > 0 && obj.broadcastDateString">{{obj.broadcastDateString}}</p>
+        </div>
+    </div>
+    <div ng-if="obj.contentType == 'MOVIE' && !noMetadata">
+        <h5>{{truncateString(obj.contentTitle, 72)}}</h5>
+    </div>
+</article>

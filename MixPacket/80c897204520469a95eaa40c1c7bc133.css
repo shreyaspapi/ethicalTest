@@ -1,0 +1,121 @@
+#opinion-poll {
+        margin-bottom: 10px;
+}
+.article-contentmain {
+        background: none repeat scroll 0 0 #EEEEEE;
+        border: 1px solid #B0AFAF;
+        padding: 10px;
+}
+.article-contentmain.white_bg {
+        background: none repeat scroll 0 0 #FFFFFF !important;
+}
+.article-img-content {
+        position: relative;
+        text-align: center;
+}
+.article-img-content img {
+        padding: 3px;
+        background: #fff;
+        box-shadow: 0 2px 2px 1px #B0AFAF;
+        max-width: 98%;
+}
+.article-content-wrapper {
+        padding-top: 10px;
+        float: none !important;
+}
+.malayalam_poll_cntr h2{ font-size: 1.0em !important;}
+.malayalam_poll_cntr .poll-options a.poll-button {font-size: 0.9em;}
+.article-content h2 {
+        color: #000000;
+        font-size: 16px;
+        font-weight: bold;
+        padding-bottom: 10px;
+}
+.article-content h2 a {
+        color: #000000;
+}
+.article-contentmain.white_bg .article-content{
+        border: none !important;
+}
+.poll-options a.poll-button {
+        background: #D8D6D6 url("http://polls.oneindia.in/media/images/poll-option-bg-strip.jpg") repeat-x 0 0;
+        border: 1px solid #90908F;
+        border-radius: 5px;
+        color: #000000;
+        cursor: pointer;
+        display: block;
+        font-size: 14px;
+        margin: 10px 0;
+        padding: 5px 8px;
+        text-decoration: none;
+}
+.bordercolor1 {
+        border-bottom: 10px solid #D95B46;
+}
+.bordercolor2 {
+        border-bottom: 10px solid #38B2D5;
+}
+.bordercolor3 {
+        border-bottom: 10px solid #00B0A6;
+}
+.bordercolor4 {
+        border-bottom: 10px solid #91C065;
+}
+.bordercolor5 {
+        border-bottom: 10px solid #35495A;
+}
+.bordercolor6 {
+        border-bottom: 10px solid #EDBD56;
+}
+.main-headings{
+        font-size: 20px;
+        padding-bottom: 5px;
+        margin: 10px 0 0;
+}
+.main-headings.cricket_poll_title{
+        font-size: 20px !important;
+        padding-bottom: 5px !important;
+        margin: 10px 0 0 !important;
+}
+#opinion-poll h2.kannada_poll_title {
+        padding-bottom: 0px !important;
+        margin: 0px !important;   
+}
+.main-headings a, .main-headings a:hover{
+        padding: 0px;
+        margin: 0px;
+        text-decoration: none;
+        color: #000;
+        font-size: 20px;
+}
+h2.no-pad-mar {
+        margin-top:0px;
+        margin-bottom:0px;
+        padding-top:0px;
+        padding-bottom:0px;
+}
+
+.rel_art_cntr h2 {
+    font-size: 0.9em;
+    margin: 0 !important;
+    padding: 5px 0 !important;
+}
+
+.rel_art_cntr .rel_art_items a, .rel_art_cntr .rel_art_items a:hover {
+        text-decoration: none;
+        color: #0066CC;
+        padding: 0px !important;
+        margin: 0px !important;
+        font-size: 0.8em !important;
+}
+.rel_art_cntr .rel_art_items {
+        border-bottom: dotted 1px #666;
+        padding: 0 0 5px !important;
+        margin: 0 0 5px !important;
+}
+.rel_art_cntr .rel_art_items:last-child {
+        border:none !important;
+}
+#polls_div .rel_art_cntr {
+        display: block !important;
+}

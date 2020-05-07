@@ -1,0 +1,1 @@
+PARSELY.pInit({"apikey":"hindustantimes.com","settings":{"debug":false,"widget":false,"tracker":true},"customizations":null,"track_ip_addresses":true,"bundle":"/code/ptrack-v0.4.0-engaged-time.js","track_third_party_cookies":true,"uuid":"7eb3f833-ffad-4c44-bd4e-a01e91d936d8"});

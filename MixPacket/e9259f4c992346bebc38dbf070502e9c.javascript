@@ -1,0 +1,1 @@
+(function(){jQuery(function(){return $(".pagination").length&&$(window).scroll(function(){var n;return n=$(".pagination .next_page a").attr("href"),n&&$(window).scrollTop()>$(document).height()-$(window).height()-800?($("#append_pagination").html('<span class ="fetching_text">Fetching more Deals...</span>'),$.getScript(n)):void 0}),$(window).scroll()})}).call(this);

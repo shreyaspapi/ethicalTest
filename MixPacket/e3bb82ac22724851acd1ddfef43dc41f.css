@@ -1,0 +1,16 @@
+﻿/***Fonts Uploaded Start***/
+@font-face {font-family:EGGIndulekhaUni;
+		src:url('../fonts/EGGIndulekha.eot');
+		src:url('../fonts/EGGIndulekha.eot?#iefix') format('embedded-opentype'), 
+			url('../fonts/EGGIndulekha.woff') format('woff'),
+			url('../fonts/EGGIndulekha.ttf') format('truetype'),
+			url('../fonts/EGGIndulekha.svg') format('svg');
+}
+@font-face {font-family:PanchariUni;
+		src:url('../fonts/PanchariUniN.eot');
+		src:url('../fonts/PanchariUniN.eot?#iefix') format('embedded-opentype'), 
+			url('../fonts/PanchariUniN.woff') format('woff'),
+			url('../fonts/PanchariUniN.ttf') format('truetype'),
+			url('../fonts/PanchariUniN.svg') format('svg');
+}
+/***Fonts Uploaded End***/

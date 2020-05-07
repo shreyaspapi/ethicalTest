@@ -1,0 +1,40 @@
+#chat{}
+
+#chat h1{font-size:40px; line-height:40px;}
+#chat .down_wallpaper{margin-bottom:-10px;}
+#chat .more_link_big{margin-bottom:20px; padding:10px 20px; position:relative;}
+#chat .btp_arrow{background:url(../images/in_sprite1.png) no-repeat -1048px -937px; width:30px; height:28px; position: absolute; bottom:-25px; left:10px;}
+
+#chat .white_block{float:none; padding:0;}
+#chat .white_block h3, #chat .white_block .navi{padding:0 20px;}
+#chat .white_block .grybg{background:#fafafa; padding:10px;}
+#chat .block_music_album.light_gray { background:#FAFAFA !important;  border-bottom: 1px solid #E4E4E4;}
+
+#chat .white_block .grybg .chatbox{background:#FFFFFF;  border: 1px solid #C4C4C4;  border-radius: 3px 3px 3px 3px;  box-shadow: 0 1px 2px #CCCCCC; color:#999999; font-size:12px; line-height:20px; position:relative; margin:10px 0}
+#chat .white_block .grybg .chatbox .upct_arrow{background:url(../images/in_sprite1.png) no-repeat -1081px -937px; width:11px; height:10px; position: absolute; top:-10px; right:10px;}
+#chat .white_block .grybg .chatbox .chat{border-bottom:1px dashed #e5e5e5; padding:10px;}
+#chat .white_block .grybg .chatbox .chat.last{border-bottom:none; padding:10px;}
+#chat .white_block .grybg .chatbox .chat .viewer {font-size: 11px; font-style: italic; font:italic; line-height:15px; text-align: center;  width: 58px; word-wrap: break-word;}
+#chat .white_block .grybg .chatbox .chat .viewer .frame { background-position: -452px -8px; height: 60px; margin-bottom: 5px; overflow: hidden; width: 60px;}
+#chat .white_block .grybg .chatbox .chat .viewer .frame img {height: 50px; padding: 4px; width: 50px;}
+#chat .white_block .grybg .chatbox .chat .chat_txt{ /*position:absolute;*/ margin:0 20px 0 75px; }
+
+#chat .frame120_90{height:74px;}
+#chat .frame120_90 .photo{height:68px;}
+#chat .video_frame_small_detail {float: right; font-size: 11px;  margin: 0; padding: 0 0 0 10px; width: 110px;}
+#chat .video_frame_small_detail .title {font-size: 12px;  font-weight: bold;  margin:0px 0;  padding: 0;}
+#chat .video_frame_small_detail .description{line-height:20px;}
+
+#chat .replycolbg{margin:0; height:75px; width:508px; position:relative; overflow:inherit;}
+#chat .replycolbg textarea{margin:0 10px; height:70px !important; width:490px !important;}
+#chat .replycolbg .upct_arrow{background:url(../images/in_sprite1.png) no-repeat -1081px -949px; width:11px; height:10px; position: absolute; bottom:-10px; left:10px;}
+#chat a .send_btn {
+	background:url("../images/in_sprite1.png") no-repeat -855px -1163px;
+    float: right;
+    height: 25px;
+    text-indent: -9999px;
+    width:60px;
+	margin-top:10px;
+}
+#chat a .send_btn:hover{background-position:-855px -1189px;}
+#chat a .send_btn:active{background-position:-855px -1215px;}

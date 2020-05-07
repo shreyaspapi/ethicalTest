@@ -1,0 +1,15 @@
+.ff1, .fs120n, .fs120n_fl, .fs120nn, .fs160, .fs160 a, h1, h2, h3, h4, h5, h6 {
+	font-family: Bhaskar_Web_Head_Test_exp, Arial, Helvetica, sans-serif;
+/*	word-break:break-all;*/
+}
+body {
+	font-family: Bhaskar_WEB_Intro_Test, Arial,Helvetica,sans-serif;
+	color: #000
+}
+.demo {
+	font-family: Bhaskar_Web_Head_Test_exp;
+	width: 800px;
+	margin: 10px auto;
+	text-align: left;
+	padding: 10px
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--
+    Name: 
+        Sandboxed Twitter Widget
+    Input: 
+        A JSON blob of the following format  {"data-widget-id":"354387022028357633","height":"500px"}
+    Example Usage:
+        <iframe src='/html/twitter.html#{'data-widget-id':"354387022028357633","height":"500px"}'></iframe>
+-->
+<html><head>
+    <style>
+        body {
+            margin:0px;
+        }
+    </style>
+</head><body>
+    <a id="anchor" class="twitter-timeline" href="https://twitter.com/IMDb">Tweets by @IMDb</a>
+    <script>
+    (function(doc, JSON){
+        var fallback = {
+            'data-widget-id':"354387022028357633"
+        };
+        var args = JSON ? JSON.parse(doc.location.hash.substring(1)) : fallback;
+        
+        anchor = doc.getElementById('anchor');
+        anchor.setAttribute("data-widget-id", args["data-widget-id"]);
+        anchor.setAttribute("height", args["height"]);
+        
+    })(document, window.JSON);
+    </script>
+    <script src="http://platform.twitter.com/widgets.js"></script>
+</body></html>

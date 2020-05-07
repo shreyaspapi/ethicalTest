@@ -1,0 +1,334 @@
+.tag_new {
+	margin:0;
+	padding:0;
+	width:64px;
+	height:64px;
+	position:absolute;
+	top:-1px;
+	left:-1px;
+	float:left;
+	z-index:99;
+	background:url(../images/tags.png) -66px -327px no-repeat;
+}
+.tag_updated {
+	margin:0;
+	padding:0;
+	width:64px;
+	height:64px;
+	position:absolute;
+	top:-1px;
+	left:-1px;
+	z-index:99;
+	background:url(../images/tags.png) -132px 0 no-repeat;
+}
+.tag_featured {
+	margin:0;
+	padding:0;
+	width:64px;
+	height:64px;
+	position:absolute;
+	top:-1px;
+	left:-1px;
+	float:left;
+	z-index:9;
+	background:url(../images/tags.png) -66px -197px no-repeat;
+}
+.tag_breaking {
+	margin:0;
+	padding:0;
+	width:64px;
+	height:64px;
+	position:absolute;
+	top:-1px;
+	left:-1px;
+	z-index:9;
+	background:url(../images/tags.png) -132px -66px no-repeat;
+}
+.tag_exclusive {
+	margin:0;
+	padding:0;
+	width:64px;
+	height:64px;
+	position:absolute;
+	top:-1px;
+	left:-1px;
+	z-index:9;
+	background:url(../images/tags.png) 0 -131px no-repeat;
+}
+.tag_hotgossip {
+	margin:0;
+	padding:0;
+	width:64px;
+	height:64px;
+	position:absolute;
+	top:-1px;
+	left:-1px;
+	z-index:9;
+	background:url(../images/tags.png) 0 0 no-repeat;
+}
+.tag_gossip {
+	margin:0;
+	padding:0;
+	width:64px;
+	height:64px;
+	position:absolute;
+	top:-1px;
+	left:-1px;
+	z-index:9;
+	background:url(../images/tags.png) 0 -66px no-repeat;
+}
+.tag_redhot {
+	margin:0;
+	padding:0;
+	width:64px;
+	height:64px;
+	position:absolute;
+	top:-1px;
+	left:-1px;
+	z-index:9;
+	background:url(../images/tags.png) 0 -197px no-repeat;
+}
+.tag_wtf {
+	margin:0;
+	padding:0;
+	width:64px;
+	height:64px;
+	position:absolute;
+	top:-1px;
+	left:-1px;
+	z-index:9;
+	background:url(../images/tags.png) 0 -262px no-repeat;
+}
+.tag_gossip {
+	margin:0;
+	padding:0;
+	width:64px;
+	height:64px;
+	position:absolute;
+	top:-1px;
+	left:-1px;
+	z-index:9;
+	background:url(../images/tags.png) 0 -66px no-repeat;
+}
+.tag_mustread {
+	margin:0;
+	padding:0;
+	width:64px;
+	height:64px;
+	position:absolute;
+	top:-1px;
+	left:-1px;
+	z-index:9;
+	background:url(../images/tags.png) 0 -327px no-repeat;
+}
+.tag_dontmiss {
+	margin:0;
+	padding:0;
+	width:64px;
+	height:64px;
+	position:absolute;
+	top:-1px;
+	left:-1px;
+	z-index:9;
+	background:url(../images/tags.png) -66px 0 no-repeat;
+}
+.tag_creepy {
+	margin:0;
+	padding:0;
+	width:64px;
+	height:64px;
+	position:absolute;
+	top:-1px;
+	left:-1px;
+	z-index:9;
+	background:url(../images/tags.png) -66px -66px no-repeat;
+}
+.tag_politricks {
+	margin:0;
+	padding:0;
+	width:64px;
+	height:64px;
+	position:absolute;
+	top:-1px;
+	left:-1px;
+	z-index:9;
+	background:url(../images/tags.png) -66px -131px no-repeat;
+}
+.tag_latest {
+	margin:0;
+	padding:0;
+	width:64px;
+	height:64px;
+	position:absolute;
+	top:-1px;
+	left:-1px;
+	z-index:9;
+	background:url(../images/tags.png) -66px -262px no-repeat;
+}
+.tag_primetime {
+	margin:0;
+	padding:0;
+	width:64px;
+	height:64px;
+	position:absolute;
+	top:-1px;
+	left:-1px;
+	z-index:9;
+	background:url(../images/tags.png) -132px -131px no-repeat;
+}
+.tag_mustplay {
+	margin:0;
+	padding:0;
+	width:64px;
+	height:64px;
+	position:absolute;
+	top:-1px;
+	left:-1px;
+	z-index:9;
+	background:url(../images/tags.png) -132px -197px no-repeat;
+}
+.tag_tonight {
+	margin:0;
+	padding:0;
+	width:64px;
+	height:64px;
+	position:absolute;
+	top:-1px;
+	left:-1px;
+	z-index:9;
+	background:url(../images/tags.png) -132px -262px no-repeat;
+}
+.tag_extended {
+	margin:0;
+	padding:0;
+	width:64px;
+	height:64px;
+	position:absolute;
+	top:-1px;
+	left:-1px;
+	z-index:9;
+	background:url(../images/tags.png) -132px -327px no-repeat;
+}
+.tag_repeat {
+	margin:0;
+	padding:0;
+	width:64px;
+	height:64px;
+	position:absolute;
+	top:-1px;
+	left:-1px;
+	z-index:9;
+	background:url(../images/tags.png) -208px 0 no-repeat;
+}
+.tag_watchnow {
+	margin:0;
+	padding:0;
+	width:64px;
+	height:64px;
+	position:absolute;
+	top:-1px;
+	left:-1px;
+	z-index:9;
+	background:url(../images/tags.png) -208px -66px no-repeat;
+}
+.tag_mostwatched {
+	margin:0;
+	padding:0;
+	width:74px;
+	height:74px;
+	position:absolute;
+	top:-1px;
+	left:-1px;
+	z-index:9;
+	background:url(../images/tags.png) -208px -131px no-repeat;
+}
+.tag_mustwatch {
+	margin:0;
+	padding:0;
+	width:74px;
+	height:74px;
+	position:absolute;
+	top:-1px;
+	left:-1px;
+	z-index:9;
+	background:url(../images/tags.png) -208px -206px no-repeat;
+}
+.tag_justarrived {
+	margin:0;
+	padding:0;
+	width:74px;
+	height:74px;
+	position:absolute;
+	top:-1px;
+	left:-1px;
+	z-index:9;
+	background:url(../images/tags.png) -208px -281px no-repeat;
+}
+.tag_blockbuster {
+	margin:0;
+	padding:0;
+	width:77px;
+	height:75px;
+	position:absolute;
+	top:-1px;
+	left:-1px;
+	z-index:9;
+	background:url(../images/tags.png) -208px -368px no-repeat;
+}
+.tag_comingsoon {
+	margin:0;
+	padding:0;
+	width:77px;
+	height:75px;
+	position:absolute;
+	top:-1px;
+	left:-1px;
+	z-index:9;
+	background:url(../images/tags.png) -208px -450px no-repeat;
+}
+
+.tag_live {
+	margin:0;
+	padding:0;
+	width:64px;
+	height:64px;
+	position:absolute;
+	top:-1px;
+	left:-1px;
+	z-index:9;
+	background:url(../images/tags.png) 0 -396px no-repeat;
+}
+.tag_newshow {
+	margin:0;
+	padding:0;
+	width:64px;
+	height:64px;
+	position:absolute;
+	top:-1px;
+	left:-1px;
+	z-index:9;
+	background:url(../images/tags.png) -66px -396px no-repeat;
+}
+
+/*----------------------------------------------04/07/2012 Sameer----------------------------------------------*/
+
+.tag_off_air, .tag_on_air, .tag_hot_on_colors, .tag_old_season {margin:0; padding:0; width:64px; height:64px; position:absolute; top:-1px; left:-1px; z-index:9; background:url(../images/tags.png) no-repeat;}
+
+.tag_off_air {background-position:-132px -397px;}
+.tag_on_air {background-position: 0 -487px;}
+.tag_hot_on_colors {background-position: -66px -487px;}
+.tag_old_season {background-position: -132px -487px;}
+
+/*----------------------------------------------04/07/2012 end ----------------------------------------------*/
+
+.tag_newyear {
+	margin:0;
+	padding:0;
+	width:80px;
+	height:80px;
+	position:absolute;
+	top:-1px;
+	left:-1px;
+	z-index:9;
+	background:url(../images/tags.png) 0 -579px no-repeat;
+}

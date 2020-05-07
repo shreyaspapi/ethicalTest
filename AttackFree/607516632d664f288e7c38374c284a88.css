@@ -1,0 +1,142 @@
+.game_frame2_block .rated_rating_divs {
+	margin:0 0 0 35px;
+}
+.red_poll_title {
+	margin:0;
+	padding:0;
+	font-size:14px;
+	font-weight:bold;
+	color:#000;
+}
+.zigzagbox label {
+	margin:0 0 0 5px;
+	padding:0;
+	font-size:14px;
+	color:#666;
+}
+ul.poll_option {
+	margin:0;
+	padding:0;
+	float:left;
+	list-style:none;
+}
+ul.poll_option li {
+	margin:10px 0;
+	padding:0;
+	display:block;
+}
+.poll_btn {
+	margin:5px 0 5px 100px;
+	padding:0;
+	float:left;
+}
+#girls_block .see_allvideo_whtie {
+    font-size: 12px;
+    margin: 17px 0 17px 0px;
+}
+#girls_block .game_frame1_block .title {
+    font-size: 12px;
+}
+#girls_block .white_block_full .view_all_video {
+	width:15%;
+}
+.girls_week {
+	margin:20px 0 0 20px;
+	padding:0;
+	width:230px;
+	float:left;
+	text-align:center;
+}
+.girl_week_frame {
+	margin:0;
+	padding:0;
+	background:#FFF;
+	border:1px solid #c4c4c4;
+	width:226px;
+	height:226px;
+	float:left;
+	box-shadow:0 1px 2px #CCC;
+	border-radius:3px;
+	position:relative;
+}
+.girl_week_frame .photo {
+	margin:3px;
+	padding:0;
+	background:#292929;
+	width:220px;
+	height:220px;
+	overflow:hidden;
+	float:left;
+	
+}
+.girls_week .title {
+	margin:5px 0 0 0;
+	padding:0;
+	font-size:18px;
+	font-weight:bold;
+}
+.girls_week .description {
+	margin:0;
+	padding:0;
+	color: #999999;
+    font-size: 11px;
+    font-style: italic;
+}
+#girls_block .game_frame_big_main {
+    background: url("../images/girls_bg.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    margin: 20px 0 0 0;
+    min-height: 200px;
+    padding: 0;
+    width: 860px;
+}
+#girls_block .game_frame_main {
+	float: left;
+    height: 129px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    width: 227px;
+}
+#girls_block .games_frame2 {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #C4C4C4;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 2px #CCCCCC;
+    float: left;
+    height: 85px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 146px;
+}
+#girls_block .games_frame2 .photo {
+    background: none repeat scroll 0 0 #292929;
+    float: left;
+    height: 79px;
+    margin: 3px;
+    overflow: hidden;
+    padding: 0;
+    width: 140px;
+}
+#girls_block .game_frame2_block {
+    float: left;
+    margin: 0 10px;
+    min-height: 150px;
+    overflow: hidden;
+    padding: 0;
+    width: 150px;
+}
+.girls_description {
+	margin:0;
+	padding:0;
+	color: #0072bc;
+    font-size: 11px;
+    font-style: italic;
+}
+a:hover .tab_view_tab .girls_description, a.active .tab_view_tab .girls_description {
+	color:#5c0f0a;
+}
+.box_height {
+	min-height:328px;
+}

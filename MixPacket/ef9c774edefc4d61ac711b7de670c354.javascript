@@ -1,0 +1,1 @@
+!function(e){"function"==typeof define&&define.amd?define("appcore/gptSimpleRefresh",[],e):window.gptSimpleRefresh=e()}(function(){return{tryRefreshAds:function(e){return googletag.adsLoaded()?(void 0!==e?googletag.renderedAdsCount-=e.length:googletag.renderedAdsCount=0,googletag.pubads().setTargeting("refresh","true"),googletag.pubads().refresh(e),!0):!1}}});

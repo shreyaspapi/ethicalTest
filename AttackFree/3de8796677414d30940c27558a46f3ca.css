@@ -1,0 +1,88 @@
+/*********************/
+/** jRating CSS **/
+/*********************/
+
+/**Div containing the color of the stars */
+.jRatingAverage {
+	background:	transparent url('../images/stars1.png');
+	position:relative;
+	top:0;
+	left:0;
+	z-index:4;
+	height:100%;
+}
+.jRatingMedium {
+	background:	transparent url('../images/star_m_active.png');
+	position:relative;
+	top:0;
+	left:0;
+	z-index:4;
+	width:19px;
+	height:20px;
+}
+.jRatingSmall {
+	background:	transparent url('../images/star_small_selected.png');
+	position:relative;
+	top:0;
+	left:0;
+	z-index:4;
+	width:13px;
+	height:13px;
+}
+.jRatingColor {
+	/*background-color:#f4c239; /* bgcolor of the stars*/
+	position:relative;
+	top:0;
+	left:0;
+	z-index:2;
+	height:100%;
+}
+.jRatingColorSmall {
+	/*background-color:#f4c239; /* bgcolor of the stars*/
+	position:relative;
+	top:0;
+	left:0;
+	z-index:2;
+	/*height:100%;*/
+}
+
+/** Div containing the stars **/
+.jStar {
+	position:relative;
+	left:0;
+	z-index:3;
+}
+.jStarMedium {
+	background:	transparent url('../images/star_m_inactive.png');
+	position:relative;
+	left:0;
+	width:19px;
+	height:20px;
+	z-index:3;
+}
+.jStarSmall {
+	background:	transparent url('../images/star_small.png');
+	position:relative;
+	left:0;
+	width:13px;
+	height:13px;
+	z-index:3;
+}
+
+/** P containing the rate informations **/
+p.jRatingInfos {
+	position:		absolute;
+	z-index:9999;
+	background:	transparent url('../images/bg_jRatingInfos.png') no-repeat;
+	color:			#FFF;
+	display:		none;
+	width:			91px;
+	height:			29px;	
+	font-size:16px;
+	text-align:center;
+	padding-top:5px;
+}
+	p.jRatingInfos span.maxRate {
+		color:#c9c9c9;
+		font-size:14px;
+	}

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE cross-domain-policy SYSTEM "http://www.macromedia.com/xml/dtds/cross-domain-policy.dtd">
+<cross-domain-policy>
+<site-control permitted-cross-domain-policies="all"/>
+<allow-access-from domain="app.scanscout.com" />
+<allow-access-from domain="static.scanscout.com" />
+<allow-access-from domain="www.forbes.com" />
+<allow-access-from domain="images.forbes.com" />
+<allow-access-from domain="rss.forbes.com" />
+<allow-access-from domain="video.forbes.com" />
+<allow-access-from domain="admin.brightcove.com" />
+<allow-access-from domain="https://docs.google.com" />
+<allow-access-from domain="*.postapp.com" />
+<allow-access-from domain="*.widgetbox.com" />
+<allow-access-from domain="*.widgetserver.com" />
+<allow-access-from domain="*.googlesyndication.com" />
+<allow-access-from domain="*.atdmt.com" secure="true" to-ports="*"/>
+<allow-access-from domain="*.atlasrichmedia.com" secure="true" to-ports="*"/>
+<allow-access-from domain="*.atlasrichmedia.co.uk" secure="true" to-ports="*"/>
+<allow-access-from domain="*.atlasrichmedia.com.au" secure="true" to-ports="*"/>
+<allow-access-from domain="*.akamai.net" secure="true" to-ports="*"/>
+<allow-access-from domain="rmd.atdmt.com" secure="false" />
+<allow-http-request-headers-from domain="images.forbes.com" headers="*" secure="false"/>
+<allow-http-request-headers-from domain="video.forbes.com" headers="*" />
+</cross-domain-policy>

@@ -1,0 +1,23 @@
+body{margin:6px;padding:0;text-align:left;background-color:#fff!important;}
+body{text-align:left; margin:0 auto;}
+body , p, div,form,h1,h2,h3 {margin:0; padding:0; font-family: arial, verdana, sans-serif ; font-size:12px; }
+body {overflow: -moz-scrollbars-vertical;}
+form *{font-family: arial, verdana, sans-serif;}
+a{text-decoration:none;color:#0055cc;}
+img{border:0px;}
+
+.ht5{display:block;height:5px;font-size:0;}
+.grey2{color:#666666;}
+
+.normal{font-weight:normal;}
+iconUp,iconDown,.iconNew,.iconDirectory,.iconAstrology,.iconGlobalIndicators,.iconUpdate,.iconZoom{background:transparent url("http://money.rediff.com/money1/images/moneywizSprites.gif") no-repeat;width:19px;height:14px;overflow:hidden;display:inline-block;vertical-align:bottom;}.iconUp i,iconDown i,.iconNew i,.iconDirectory i,.iconAstrology i,.iconGlobalIndicators i,.iconUpdate i,.iconZoom i{display:none;}.iconDown{background:transparent url("http://money.rediff.com/money1/images/moneywizSprites.gif") no-repeat;width:19px;height:14px;overflow:hidden;display:inline-block;background-position:0 0;vertical-align:bottom;}.iconUp{background:transparent url("http://money.rediff.com/money1/images/moneywizSprites.gif") no-repeat;width:19px;height:14px;overflow:hidden;display:inline-block;background-position:0 -100px;vertical-align:bottom;}.iconNeutral{background:transparent url("http://money.rediff.com/money1/images/moneywizSprites.gif") no-repeat;width:19px;height:14px;overflow:hidden;display:inline-block;background-position:0 -50px;vertical-align:bottom;}.iconZoom{background-position:0 -150px;}.iconNew{background-position:0 -200px;width:28px;}.iconGlobalIndicators{background-position:0 -250px;}.iconDirectory{background-position:0 -300px;}.iconAstrology{background-position:0 -350px;}.iconUpdate{background-position:0 -400px;}
+.quote-tab{color:#fff;padding:0px 3px 2px 3px;background-color:#6CA6CD;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;border:1px solid #D9D9D9}
+
+.ChangePercentGreen2 {font-family: Arial,Helvetica,sans-serif; font-size: 15px; color:#008000; text-align: right;}
+.ChangePercentRed2 {font-family: Arial,Helvetica,sans-serif; font-size: 15px; color: rgb(255, 0, 0); text-align: right;}
+.ChangePercentGrey2 {font-family: Arial,Helvetica,sans-serif; font-size: 15px; color: #666; text-align: right;}
+.ChangePercentBlack2 {font-family: Arial,Helvetica,sans-serif; font-size: 15px; color: #000000; text-align: right;}
+.greybar2 {background:#E5E5E5 none repeat scroll 0 0;font-size:0;height:1px;margin:2px 0 0;}
+
+.f9{FONT-FAMILY:arial;FONT-SIZE:9px;}.f10{FONT-FAMILY:arial;FONT-SIZE:10px;}.f11{FONT-FAMILY:arial;FONT-SIZE:11px;}.f12{FONT-FAMILY:arial;FONT-SIZE:12px;}.f12a{FONT-FAMILY:arial;FONT-SIZE:12px;line-height:17px;}.f13{FONT-FAMILY:arial;FONT-SIZE:13px;}.fv18{FONT-FAMILY:arial;FONT-SIZE:18px;}.f20{FONT-FAMILY:arial;FONT-SIZE:20px;}.f22{FONT-FAMILY:arial;FONT-SIZE:22px;line-height:24px;TEXT-DECORATION:none;}
+.f14{font-size:14px;}

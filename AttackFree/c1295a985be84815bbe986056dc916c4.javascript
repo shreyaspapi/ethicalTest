@@ -1,0 +1,1 @@
+Wikinvest_HTTP_Callback_1 ({"gainers":[],"losers":[],"movers":[],"asOfDate":"Wed, 06 May 2015 04:35:59 -0700","source":"short-circuit"});

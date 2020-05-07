@@ -1,0 +1,96 @@
+<div id="signIn">
+	<div id="signInView">
+		<h2>Sign in Using</h2>
+		<div class="socialContainer">
+			<div id="facebookBtn" class="socialButton">
+				<span class="icon"></span>
+				<span class="buttonText">Facebook</span>
+			</div>
+			<span class="sbar">/</span>
+			<div id="googlePlusBtn" class="socialButton">
+				<span class="icon"></span>
+				<span class="buttonText">Google</span>
+			</div>
+		</div>
+		<div class="TextCenter">or</div>
+		<div>
+			<div id="loginMessage"></div>
+			<div class="inputContainer">
+				<label>E-mail: </label>
+				<input type="text" class="Xinput" id="username" name="username" data-validate="required|email" data-message="Enter email|Invalid Email"/>
+				<span class="errorMessageFixed"></span>
+			</div>
+			<div class="inputContainer">
+				<label>Password: </label>
+				<input type="password" class="Xinput" id="password" name="password" data-validate="required" data-message="Enter password"/>
+				<span class="errorMessageFixed"></span>
+			</div>
+			<div class="inputContainer M0">
+				<label></label>
+				<input type="checkbox" id="rememberMe" name="rememberMe"/><label for="rememberMe" class="rememberMe">Remember me!</label>
+			</div>
+			<div class="inputContainer">
+				<label></label>
+				<input type="button" id="signInBtn" value="Sign in"/>
+				<span class="spinnerLoading" style="display:none"></span>
+				<a href="javascript:void(0);" id="forgotPasswordLink" class="forgotPasswordLink">Forgot your password?</a>
+			</div>
+		</div>
+		<div class="registerLink">
+			<span>Don't have an account yet?</span>
+			<a href="javascript:void(0);" id="createAccountLink">Create one now</a>
+		</div>
+		<div class="noLoginNeeded">Note: You don't need to sign in to make a booking.</div>
+		<div class="loginSpinner" id="loginSpinner">
+			<img src="/images/108.gif" alt='Loading...'/>
+			<div class="loginWaitMessage">Please wait while we process your login</div>
+		</div>
+	</div>
+	<div id="createAccountView">
+		<h2>Create new account</h2>
+		<div class="inputContainer">
+			<label>Your E-mail: </label>
+			<input type="text" class="Xinput" id="new_username" name="username" data-validate="required|email" data-message="Enter email|Invalid email"/>
+			<span class="errorMessageFixed"></span>
+		</div>
+		<div class="inputContainer">
+			<label>Choose Password: </label>
+			<input type="password" class="Xinput" id="new_password" name="password" data-validate="required|minLength" data-message="Enter password|Password should be min 5 characters"/>
+			<span class="errorMessageFixed"></span>
+		</div>
+		<div class="inputContainer">
+			<label>Confirm Password: </label>
+			<input type="password" class="Xinput" id="new_confirmPassword" name="confirmpassword" data-validate="required|matchPassword" data-message="Confirm password|Password not matching"/>
+			<span class="errorMessageFixed"></span>
+		</div>
+		<div class="inputContainer">
+			<label></label>
+			<input type="button" id="createAccountBtn" value="Create my account"/>
+			<span class="spinnerLoading" style="display:none"></span>
+		</div>
+		<div class="statusMessage"></div>
+		<div class="normalMsg">
+		<a href="javascript:void(0);" class="backLink">&lt;&lt; back</a>
+		</div>
+		<div class="custInfoMessage Hide">
+		<span>Already have an account?</span>
+		<a href="javascript:void(0);" class="backLink">&gt;&gt; Login</a>
+		</div>
+	</div>
+	<div id="forgotPasswordView">
+		<h2>Forgot your password?</h2>
+		<div class="expForgot">Enter your email username below. We'll send you an email  with a link to reset password</div>
+		<div class="inputContainer">
+			<label>E-mail: </label>
+			<input type="text" class="Xinput" id="reset_username" name="username" data-validate="required|email" data-message="Enter email|Invalid email"/>
+			<span class="errorMessageFixed"></span>
+		</div>
+		<div class="inputContainer">
+			<label></label>
+			<input type="button" id="resetPasswordBtn" value="Reset my password"/>
+			<span class="spinnerLoading" style="display:none"></span>
+		</div>
+		<div class="statusMessage"></div>
+		<a href="javascript:void(0);" class="backLink">&lt;&lt; back</a>
+	</div>
+</div>

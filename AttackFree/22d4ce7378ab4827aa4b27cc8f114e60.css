@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Merriweather Sans Light'), local('MerriweatherSans-Light'), url(http://fonts.gstatic.com/s/merriweathersans/v5/6LmGj5dOJopQKEkt88GowQaqY1RzDqUCoj4OhtiyHDU.woff2) format('woff2'), url(http://fonts.gstatic.com/s/merriweathersans/v5/6LmGj5dOJopQKEkt88GowY_zIojJi0m4a5Z6tRh6itY.woff) format('woff');
+}
+@font-face {
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Merriweather Sans Regular'), local('MerriweatherSans-Regular'), url(http://fonts.gstatic.com/s/merriweathersans/v5/AKu1CjQ4qnV8MUltkAX3sMZ4HySTEWshgORbPp2tk8k.woff2) format('woff2'), url(http://fonts.gstatic.com/s/merriweathersans/v5/AKu1CjQ4qnV8MUltkAX3sL2aU247V0zTzydO4RoO9Ok.woff) format('woff');
+}
+@font-face {
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Merriweather Sans Bold'), local('MerriweatherSans-Bold'), url(http://fonts.gstatic.com/s/merriweathersans/v5/6LmGj5dOJopQKEkt88GowbvMLSVzqOGkoxdgTSsKqWM.woff2) format('woff2'), url(http://fonts.gstatic.com/s/merriweathersans/v5/6LmGj5dOJopQKEkt88GowQfd-b-I5PxxcmB4_-MNcqw.woff) format('woff');
+}

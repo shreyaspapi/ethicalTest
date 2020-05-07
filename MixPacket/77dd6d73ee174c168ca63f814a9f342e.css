@@ -1,0 +1,12 @@
+.jspContainer{overflow:hidden;position:relative}.jspPane{position:absolute}.jspVerticalBar{position:absolute;top:0;right:0;width:16px;height:100%;background:red;padding:0px 10px;}.jspHorizontalBar{display:none;position:absolute;bottom:0;left:0;width:100%;height:16px;background:red;outline:0;}.jspCap{display:none}.jspHorizontalBar .jspCap{float:left}.jspTrack{background:#dde;position:relative}.jspDrag{background:#bbd;position:relative;top:0;left:0;cursor:pointer}.jspHorizontalBar .jspTrack,.jspHorizontalBar .jspDrag{float:left;height:100%}.jspArrow{background:#333333;text-indent:-20000px;display:block;cursor:pointer;padding:0;margin:0;overflow: visible;margin-left: -2px;width:10px;height:14px;}.jspArrow.jspDisabled{cursor:default;}.jspVerticalBar .jspArrow{height:16px}.jspHorizontalBar .jspArrow{width:16px;float:left;height:100%}.jspVerticalBar .jspArrow:focus{outline:0}.jspCorner{background:#eeeef4;float:left;height:100%}* html .jspCorner{margin:0 -3px 0 0}
+.jspVerticalBar {width: 8px;background: transparent;}
+.jspTrack {background: transparent;}
+ .jspDrag {background:#a9a9a9;border-radius: 3px;-moz-border-radius: 3px;-webkit-border-radius: 3px;-o-border-radius: 3px;}
+  .jspDrag:hover{background:#cdcdcd;}*{outline:0;}
+  .jspVerticalBar{padding:0;width:5px;}
+	.jspDrag{border-radius:0;background:#71509d;}
+	.jspDrag:hover{background:#2e2750;}
+.jspVerticalBar .jspArrow.jspArrowUp{background: url(http://media.monsterindia.com/seeker_2014/ns_combined.png) no-repeat -334px -51px;}
+.jspVerticalBar .jspArrow.jspArrowDown{background: url(http://media.monsterindia.com/seeker_2014/ns_combined.png) no-repeat -334px -63px;}
+.mn_jobby_content_innr .jspDrag {background: #a9a9a9;border-radius: 3px;-moz-border-radius: 3px;-webkit-border-radius: 3px;-o-border-radius: 3px;}
+.mn_jobby_content_innr .jspVerticalBar{padding: 0px 10px;}

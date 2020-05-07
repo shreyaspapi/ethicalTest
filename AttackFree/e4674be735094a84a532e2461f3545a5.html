@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script>
+if(document.referrer!=null) {
+GCall_Flag=false;
+
+var docuref=document.referrer;	
+
+function truncate(input) {
+  var byteLength = 61;
+  return decodeURIComponent(encodeURIComponent(input)
+.substr(0,byteLength));
+}
+
+function getkeywords() {
+  var x = document.referrer;
+  var keywords = 0;
+  if (x.search(/yahoo/) != -1) {
+    keywords = gup("p"); 
+  }
+  else if (x.search(/digg/) != -1) {
+    keywords = gup("s"); 
+  }
+  else {
+    keywords = gup("q"); 
+  }
+  keywords = truncate(keywords.replace(/\+/g, " "));
+  return keywords; 
+}
+
+function gup(name) {
+  name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
+  var regexS = "[\\?&]"+name+"=([^&#]*)";
+  var regex = new RegExp( regexS );
+  var results = regex.exec( document.referrer );
+  if( results == null )
+    return "";
+  else
+    return results[1];
+}
+
+var s_keyword=getkeywords();
+    if (s_keyword.length > 0) {
+        window.location.href='/search_site.php?section=all&q='+s_keyword;
+    } else {
+        window.location.href='/page_not_found.php';
+    }
+}
+</script>
+</head>
+<body>
+</body>
+</html>

@@ -1,0 +1,4 @@
+var mboxCurrent = mboxFactories.get('default').get('HPLP_topbar_mbox',0);mboxCurrent.setOffer(new mboxOfferAjax('<!-- Offer Id: 7381  -->'));mboxCurrent.getOffer().setOnLoad(function() {
+/*T&T Metadata v3 ==>Response Plugin*/
+window.ttMETA=(typeof(window.ttMETA)!="undefined")?window.ttMETA:[];window.ttMETA.push({"CampaignName":"","CampaignId":"","RecipeName":"","RecipeId":"","OfferId":"","OfferName":"","MboxName":"HPLP_topbar_mbox"});
+});mboxCurrent.loaded();mboxFactories.get('default').get('HPLP_topbar_mbox',0).cancelTimeout();mboxFactories.get('default').get('HPLP_topbar_mbox',0).setOffer(new mboxOfferDefault()).show();mboxFactories.get('default').getPCId().forceId("1430566041767-188826.22_11");

@@ -1,0 +1,19 @@
+<div class="mobile-top-bar">
+    <div class="container">
+        <a href="#!/featured" class="menu-heading">HOTSTAR</a>
+        <button class="mob-menu"></button>
+        <h1><a href="#!/featured"><img src="./img/logo.svg" alt="hotstar – Watch TV Shows, Movies &amp; Live Cricket Matches Online" class="mobile-logo"></a>
+</a></h1>
+        <button ng-click="showSearchBox();" class="mob-search"></button>
+    </div>
+
+</div>
+
+<script>
+    $('.mob-menu').on('click', function (e) {
+        window.scrollTo(0, 0);
+        $('.touch-menu').toggleClass("menu-open");
+        $('.content-wrapper').toggleClass("menu-open");
+        $('.mobile-top-bar').toggleClass("menu-open");
+    });
+</script>

@@ -1,0 +1,1 @@
+Krux.ns._default.kxjsonp_userdata({"status":"200","body":{"code":"no_segments","kuid":"J1Uk-7w9","kuid_long":"pl5iqtq57","geo":{"domain":null,"country":"in","dma":null,"zip":"452001","longitude":"75.8043","latitude":"22.6936","region":"mp"},"technographics":{"browser":"Firefox 38","manufacturer":"Other","device":"Computer","os":"Linux"}}});

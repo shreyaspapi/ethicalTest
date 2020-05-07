@@ -1,0 +1,20 @@
+#map a {
+	outline: none;
+}
+
+#map {
+	font: normal 12px Arial, Helvetica, sans-serif;
+}
+
+#map .infoWindow {
+	white-space: nowrap;
+}
+
+#map .infoWindowLinks {
+	display: block;
+	margin-top: .5em;
+}
+
+#map .infoWindowLinks br {
+	display: none;
+}

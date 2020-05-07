@@ -1,0 +1,34 @@
+<div class="heading">
+	<h3>In My Opinion</h3>
+</div>
+<div class="clear"></div>
+<hr>
+<div class="clear"></div>
+<div class="home_poll">
+	<form name="poll" action="/poll_details.php" method="post">
+		<input type="hidden" name="id" id="pollid" value=""/>
+		<input type="hidden" name="cid" id="cid" value="0"/>
+		<input type="hidden" name="optionid" id="optionid" value=""/>
+		<input type="hidden" name="action"  value="submit"/>
+	</form>
+    <p class="result_title">What gift should Santa gift Delhi?</p>
+	    <input type="radio" name="poll_313251" value="313252" id="radioBTN_313252" class="float_left margintop20" /><label>Corruption free Government</label>
+	    <input type="radio" name="poll_313251" value="313253" id="radioBTN_313253" class="float_left margintop20" /><label>Rape free Buses</label>
+					<div class="clear"></div> 
+			    <input type="radio" name="poll_313251" value="313254" id="radioBTN_313254" class="float_left margintop20" /><label>Congress free AAP</label>
+	    <div class="clear"></div>
+    <a href="javascript:;" onclick="web.pollSubmit({pollid:313251})"><span class="vote_btn"></span></a>
+    <p class="result_description blue_anchor poll_more"><a href="http://www.in.com/poll_details.php?id=313251">See results</a>
+		
+</div>
+<div class="clear"></div>
+
+
+    <script>
+        jQuery(tmpObj).parent().find('a').removeClass('disable');
+        jQuery(tmpObj).parent().parent().find('.pre_').val(0);
+        jQuery(tmpObj).parent().parent().find('.next_').val(0);
+    </script>
+        <script>
+            jQuery(tmpObj).addClass('disable');
+        </script>

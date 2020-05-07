@@ -1,0 +1,27 @@
+﻿<div class="search-box" id="searchBoxId" ng-controller="SearchBoxCtrl">
+
+    <div class="container">
+        <div class="row search">
+            <div class="col-xs-1"></div>
+            <div class="col-xs-10">
+                <form>
+                    <input id="txtSearch" class="txtSearchTransparent txtSearchTransparent-sm txtSearchTransparent-tab"  type="text" ng-change="enterKey()" ng-keyup="enterKey($event)" ng-model="searchString">
+                </form>
+            </div>
+            <div class="col-xs-1">
+                <a href="" ng-click="closeSearch()" class="close-button"></a>
+            </div>
+            <!-- suggestion, still not implemented in backend
+            <div class="col-xs-12 full results">
+                <p><em>ldkfjd</em>flkdsfjsdlfjsdlkfj</p>
+                <p>flkdsfjsdlf<em>ldkfjd</em>jsdlkfj</p>
+                <p>flkd<em>ldkfjd</em>sfjsdlfjsdlkfj</p>
+            </div>
+
+            <div class="col-xs-12 search-results">
+                528 results <a href="#">See all results <i></i></a>
+            </div>
+                -->
+        </div>
+    </div>
+</div>

@@ -1,0 +1,174 @@
+.flSeatLyt_sprite {
+  background-image: url(/images/v2/flight/side-seats.gif);
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 17px;
+  background-position: top left;
+  margin: 2px 0;
+}
+.flSeatLyt_wrap {
+  overflow: hidden;
+   width: 98%;
+ /* border: 1px solid #999;*/
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  padding: 20px;
+  font-family: arial;
+
+}
+.flSeatLyt_wrap .stnopss{float: left; width: 78%;}
+.flSeatLyt_wrap .flt_errst{float: right; width: 50%;}
+.flSeatLyt_wrap .flt_destwrp{overflow: hidden; background:#fff}
+.flSeatLyt_wrap .flt_destclss{float: left; width: 50%;}
+.flSeatLyt_wrap .seat-request{background-position: -123px -415px;}
+
+.flSeatLyt_wrap1 {
+  width:96%;
+  overflow-x: auto; 
+  overflow-y:hidden;
+  height:275px;
+}
+.flSeatLyt_wrap2 {
+  float:left;
+  padding-left: 10px;
+  background-color: #efefef;
+  border-radius: 5px;
+  width:20%;
+  margin-left:2%
+}
+.flSeatLyt_wrap2 div{
+  padding-right: 10px;
+}
+.flSeatLyt_wrap2 .flt_sttxt{
+  float: left;
+  padding-left: 6px;
+  padding-top: 3px;
+}
+.flSeatLyt_rw{
+  overflow: hidden;
+  width: 25px;
+  float: left;
+  display: block;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.flSeatLyt_vacant{
+  background-position: 0 -48px;
+  float: left;
+ /* cursor: pointer;*/
+}
+span.flSeatLyt_vacant:hover{
+ /* cursor: pointer;*/
+}
+.flSeatLyt_vacant.legend, .flSeatLyt_vacant.legend:hover {
+  cursor: default !important;
+}
+.flSeatLyt_booked, .flSeatLyt_open {
+  background-position: 0 -96px;
+  float:left;
+}
+.flSeatLyt_sel {
+  background-position:0 -48px;
+}
+.flSeatLyt_selected {
+  background-position: 0 -48px;
+}
+.flSeatLyt_lbl {
+  background-position: 0 -223px;
+  float: left;
+  font-weight: bold;
+}
+#flSeatLyt_seats {
+  font-size:20px;
+}
+#flSeatLyt_msg {
+  color:red;
+}
+.flSeatLyt_txt, .flSeatLyt_col {
+  font-weight:bold;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  color:#777;
+  margin-bottom: 15px;
+  padding: 0;
+  width: 23px;
+  height: 16px;
+  display: block;
+  margin: 0 auto 15px auto;
+  text-align: left;
+}
+.flSeatLyt_col {
+  margin-bottom: 0;
+}
+.flSeatLyt_cor {
+  background: none;
+}
+.flSeatLyt_way {
+  margin-top: 20px;
+}
+.flSeatLyt_hd {
+  padding-left: 10px;
+}
+.flSeatLyt_ss{
+  overflow: hidden;
+  font-size: 12px;
+  padding: 5px 0;
+}
+.flSeatLyt_bs{
+  overflow: hidden;
+  font-size: 12px;
+  padding: 5px 0;
+}
+.flSeatLyt_rule{
+  height: 600px;
+}
+.flSeatLyt_rule h1{
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+.flSeatLyt_rule h1 span{
+  float: right;
+  font-size: 11px;
+}
+/*table.fl_farecal{
+  width:100%;
+}
+table.fl_farecal td{
+  padding: 5px;
+  border: 1px solid #999999;
+}
+.ui-dialog .ui-dialog-content{
+  padding-top: 0px !important;
+}*/
+.flSeatLyt_rule h1{
+  font-size: 28px;
+  text-align: center;
+  font-weight: normal;
+}
+.flSeatLyt_rule p{
+  padding-bottom: 10px;
+  color: #999;
+  line-height: 110%;
+}
+.flSeatLyt-wrap1{
+  padding-bottom: 10px;
+}
+.flSeatLyt_wrap1::-webkit-scrollbar { width: 12px; } 
+.flSeatLyt_wrap1::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 10px;
+}
+.flSeatLyt_wrap1::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+
+@media all and (min-width:760px) and ( max-width:960px){
+#gi_seatmaplayout{ width:700px}
+.flSeatLyt_wrap{ padding:0; width:100%}
+
+}

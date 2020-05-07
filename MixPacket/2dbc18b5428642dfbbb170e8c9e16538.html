@@ -1,0 +1,44 @@
+<div ng-class="{playlist: true, open:true}"  ng-if="relatedSlides.length > 0">
+    <!-- my playlist toolbar -->
+    <div class="phead bmargin text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12" style="position: relative;">
+                    <button class="pclose" ontouchstart="upNext()">
+                        <i class="active"></i>
+                    </button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container view-1">
+        <div class="row">
+            <div id="playerCarouselPlaylist" class="carousel slide" slides="relatedSlides" carousel data-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+                    <article ng-class="{active: $index===0}" class="item full" ng-repeat="slide in relatedSlides">
+                        <div class="carousel-caption">
+                            <div class="row full">
+                                <div class="col-xs-3" ng-repeat="obj in slide">
+                                    <div class="playlist-item">
+                                        <img placeholder-img="{'realUrl' :  '{{obj.carouselThumb}}', 'placeholderUrl' : '{{carouselPlaceholderUrl}}'}" alt="{{obj.title}}" title="{{obj.title}}" />
+                                        <div class="playlist-overlay">
+                                            <a class="action-small-play" ontouchstart="evaluateSkip(this)" index="{{obj.index}}"></a>
+                                        </div>
+                                        <h5>{{truncateString(obj.title, 20)}}</h5>
+                                        <div class="metadataUpNext">
+                                            <p ng-if="!obj.episode || obj.episode == ''">{{obj.title ? obj.title : ''}}</p>
+                                            <p ng-if="obj.episode && obj.episode != ''">{{obj.chapter}} | {{obj.episode}}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <span class="left carousel-control" data-target="#playerCarouselPlaylist" data-slide="prev"></span>
+                <span class="right carousel-control" data-target="#playerCarouselPlaylist" data-slide="next"></span>
+            </div>
+        </div>
+    </div>
+</div>
